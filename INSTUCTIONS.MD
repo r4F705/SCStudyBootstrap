@@ -38,8 +38,8 @@ This guide is designed to help you set up a custom study project in Visual Studi
 1. **Access Project Properties**:
    - Right-click the project in "Solution Explorer" and select "Properties."
 2. **Set Directories**:
-   - **Output Directory**: Set to Sierra Chart's "Data" folder (e.g., `C:\SierraChart\Data\`).
-   - **Output File**: Add `$(TargetName)$(TargetExt)` to the Data folder path.
+   - **Output Directory**: In General set to Sierra Chart's "Data" folder (e.g., `C:\SierraChart\Data\`).
+   - **Output File**: In Linker add `C:\SierraChart\Data\$(TargetName)$(TargetExt)`.
    - **Include Directories**: Add Sierra Chart's "ACS_Source" path at the end of the list.
 3. **Build Configuration**:
    - Adjust between "Debug" and "Release" modes as needed.
