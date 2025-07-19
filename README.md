@@ -1,3 +1,5 @@
+# NOTE: THE SCRIPT IT TOTALLY BROKEN AND NEEDS FIXING. IT WAS VIBE CODED!
+
 # SCStudyBootstrap
 
 **SCStudyBootstrap** is a PowerShell-based automation tool designed to streamline the setup and configuration of Visual Studio projects for developing custom studies in Sierra Chart. This tool helps developers quickly bootstrap their project environments by automatically generating necessary PowerShell scripts and updating Visual Studio project settings, ensuring seamless integration and efficient development workflows.
